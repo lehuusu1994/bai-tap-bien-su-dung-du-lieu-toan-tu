@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      inputPhysics = prompt("Nhập điểm Vật Lý");
+      inputChemistry = prompt("Nhập điểm Hóa Học");
+      inputBiology = prompt("Nhập điểm Sinh Học");
+      let physics = parseInt(inputPhysics);
+      let chemistry = parseInt(inputChemistry);
+      let biology = parseInt(inputBiology);
+      let sum = physics + chemistry + biology;
+      let average = (physics + chemistry + biology) / 3;
+      document.write("Điểm trung bình :" + average);
+      document.write("</br>");
+      document.write("Tổng điểm :" + sum);
+    </script>
+  </body>
+</html>
